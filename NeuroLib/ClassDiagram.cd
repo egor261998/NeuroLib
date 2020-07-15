@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CFunction">
+    <Position X="9" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABkgAACgAAAAAoAAAAAIAAABAAAAAIAAAEAQQAAAA=</HashCode>
+      <FileName>CFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLayer">
+    <Position X="6.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAQAAgAAAAEAAEAAAgAAAAAAAAA=</HashCode>
+      <FileName>CLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLayerList">
+    <Position X="6.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBQAAAAAABAAQAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CLayerList.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CMatrix">
+    <Position X="3.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAQAAAAAAAEAAEAAAgAAAAAAAAA=</HashCode>
+      <FileName>CMatrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMatrixList">
+    <Position X="3.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAABABAAAAAQAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMatrixList.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CNeuro">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="CNeuro::Func" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Neuro.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <AssociationLine Name="m_Layers" Type="CLayerList" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="0.625" />
+        <Point X="7.5" Y="0.625" />
+        <Point X="7.5" Y="1.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="m_Matrix" Type="CMatrixList" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="0.562" />
+        <Point X="4.812" Y="0.562" />
+        <Point X="4.812" Y="1.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.048" Y="0.11" Height="0.182" Width="0.831" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABAAEBBACIAwAENAAAACABAAAAAAAAAAIoCAwCQACQ=</HashCode>
+      <FileName>Neuro.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Layers" />
+      <Field Name="m_Matrix" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

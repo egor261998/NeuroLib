@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Neuro.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="CFunction.cpp">
+      <Filter>main\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayer.cpp">
+      <Filter>main\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayerList.cpp">
+      <Filter>main\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="CMatrix.cpp">
+      <Filter>main\weight</Filter>
+    </ClCompile>
+    <ClCompile Include="CMatrixList.cpp">
+      <Filter>main\weight</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Neuro.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="CFunction.h">
+      <Filter>main\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayer.h">
+      <Filter>main\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayerList.h">
+      <Filter>main\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatrix.h">
+      <Filter>main\weight</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatrixList.h">
+      <Filter>main\weight</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{8a4d5dec-7d67-4f86-bfe7-5e0c7542aaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\weight">
+      <UniqueIdentifier>{ec1a09ad-4205-454a-a56c-f79e39c71f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\functions">
+      <UniqueIdentifier>{11d3c535-a868-4575-8119-502dd47b6514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\layer">
+      <UniqueIdentifier>{0a658d0b-e418-437e-ba62-59c79985b6e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
